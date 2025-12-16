@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рисовалка на TypeScript</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+</head>
+<body>
+    <div class="header">
+        <h1>🎨 Мольберт</h1>
+        <p class="subtitle">Выберите цвет фона и цвет кисти, затем рисуйте на холсте</p>
+    </div>
+    
+    <div class="container">
+        <div class="controls" id="controlsContainer"></div>
+        <div class="drawing-area-container" id="canvasContainer"></div>
+    </div>
+    
+    <div class="instructions">
+        <h3>Как использовать:</h3>
+        <ul>
+            <li>Выберите один из трех пастельных цветов для фона холста</li>
+            <li>Выберите один из трех пастельных цветов для рисования</li>
+            <li>Кликните и перемещайте курсор по холсту, чтобы рисовать</li>
+            <li>Используйте кнопку "Очистить холст", чтобы начать заново</li>
+            <li>На мобильных устройствах рисуйте пальцем</li>
+        </ul>
+    </div>
+
+    <!-- Измените путь: -->
+    <script type="module" src="./src/app.ts"></script>
+</body>
+</html>

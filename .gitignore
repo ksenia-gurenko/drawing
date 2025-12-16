@@ -1,0 +1,27 @@
+# Минимальный .gitignore для TypeScript проекта
+@"
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# Editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+"@ | Out-File -FilePath .gitignore -Encoding UTF8

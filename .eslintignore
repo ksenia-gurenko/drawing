@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+coverage/
+*.min.js
+*.config.js
+*.d.ts
+*.log
+*.tmp
+.DS_Store
